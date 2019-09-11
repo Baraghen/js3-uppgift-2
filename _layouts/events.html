@@ -1,0 +1,15 @@
+---
+layout: wrapper
+---
+
+{% include header.html %}
+
+{% for post in site.posts %}
+
+    <div class="event">
+        <h3>{{ post.title }}</h3>
+        <h4>{{ post.date | date: "%a, %b %-d" }}</h4>
+        {{ post.content }}
+    </div>
+
+{% endfor %}

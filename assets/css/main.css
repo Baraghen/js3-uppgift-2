@@ -1,0 +1,95 @@
+body {
+    font-family: 'Arapey', serif;
+    background-color: white;
+    /* background: rgb(255, 236, 174); */
+    transition: background-color 800ms linear;
+    backface-visibility: hidden;
+}
+
+.visible {
+    opacity: 1;
+    transition: opacity 800ms;
+}
+
+.hidden {
+    opacity: 0;
+    transition: opacity 800ms;
+}
+
+.slowIntro {
+    opacity: 1;
+    transition: opacity ease-in 1500ms;
+    transition-delay: 0.5s;
+}
+
+.banner {
+    height: 150px;
+    display: block;
+    margin: 3rem auto 0;
+    cursor: pointer;
+}
+
+.menu {
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    margin: 20px 0 0;
+    padding: 0 0 20px;
+}
+
+.menu > li {
+    display: inline-block;
+    cursor: pointer;
+}
+
+li:hover {
+    font-weight: bold;
+}
+
+span:hover {
+    font-weight: normal;
+}
+
+.event {
+    text-align: center;
+}
+
+.discography {
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact > p  > a {
+    color: black;
+}
+
+.title {
+    text-align: center;
+    font-size: 7rem;
+    color: white;
+    text-shadow: 8px 4px black;
+    border: 3px solid black;
+    margin: 20rem auto 1rem;
+}
+
+.title > h1 {
+    margin: 0;
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.event {
+    margin: 2rem auto;
+}
+
+footer {
+    text-align: center;
+    font-size: 8px;
+    margin: 2rem 0;
+}

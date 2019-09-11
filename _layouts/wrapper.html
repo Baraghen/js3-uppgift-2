@@ -1,0 +1,16 @@
+<html>
+    <meta charset="UTF-8">
+    <title>{{ site.title }}</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Arapey&display=swap" rel="stylesheet">
+    <head>
+        
+    </head>
+    <body onload="fadeIn(content)">
+        <div class="content hidden">
+            {{ content }}
+            {% include footer.html %}
+        </div>
+        <script src="/assets/js/script.js"></script>
+    </body>
+</html>

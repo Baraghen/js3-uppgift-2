@@ -1,0 +1,20 @@
+<header>
+    
+    {% if page.url == "/events.html" %}
+        <img src="/assets/img/events.jpg" alt="events" class="banner">
+    {% elsif page.url == "/discography.html" %}
+        <img src="/assets/img/discography.jpg" alt="discography" class="banner">
+    {% elsif page.url == "/contact.html" %}
+        <img src="/assets/img/contact.jpg" alt="contact" class="banner">
+    {% endif %}
+
+    <ul class="menu">
+        <li><span>&#9825</span></li>
+        <li id="eventsLink">Events</li>
+        <li><span>&#9826</span></li>
+        <li id="discographyLink">Discography & Production</li>
+        <li><span>&#9828</span></li>
+        <li id="contactLink">Contact</li>
+        <li><span>&#9831</span></li>
+    </ul>
+</header>

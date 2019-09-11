@@ -1,17 +1,17 @@
 function fadeIn(el){
-    if(window.location.pathname === "/discography/"){
+    if(window.location.pathname === "/"){
+        document.body.style.background ="white";
+    }
+
+    else if(window.location.pathname === "/discography"){
         document.body.style.background ="rgb(255, 236, 174)";
     }
     
-    else if(window.location.pathname === "/"){
-        document.body.style.background ="white";
-    }
-    
-    else if(window.location.pathname === "/contact/"){
+    else if(window.location.pathname === "/contact"){
         document.body.style.background ="rgb(255, 172, 194)";
     }
     
-    else if(window.location.pathname === "/events/"){
+    else if(window.location.pathname === "/events"){
         document.body.style.background ="rgb(142, 221, 252)";
     }
 
